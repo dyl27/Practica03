@@ -1,0 +1,23 @@
+</main>
+
+<footer class="site-footer py-3 mt-auto">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-1">
+        <span><i class="mdi mdi-book-open-page-variant-outline"></i> <spring:message code="footer.text"/></span>
+        <span>Spring Boot · JdbcTemplate · Bootstrap · jQuery</span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/datatables.net@2.3.8/js/dataTables.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datatables.net-bs5@2.3.8/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datatables.net-buttons@3.2.6/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datatables.net-buttons-bs5@3.2.6/js/buttons.bootstrap5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datatables.net-select@3.1.3/js/dataTables.select.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datatables.net-select-bs5@3.1.3/js/select.bootstrap5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datatables.net-columncontrol@1.2.1/js/dataTables.columnControl.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datatables.net-columncontrol-bs5@1.2.1/js/columnControl.bootstrap5.min.js"></script>
+<script src="<c:url value='/js/app.js'/>"></script>
+</body>
+</html>
